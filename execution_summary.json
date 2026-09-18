@@ -1,0 +1,60 @@
+{
+  "recordings": 4,
+  "energy_threshold_experiment": [
+    {
+      "z_threshold": 1.0,
+      "candidate_calls": 22
+    },
+    {
+      "z_threshold": 1.5,
+      "candidate_calls": 11
+    },
+    {
+      "z_threshold": 2.0,
+      "candidate_calls": 8
+    },
+    {
+      "z_threshold": 2.5,
+      "candidate_calls": 5
+    },
+    {
+      "z_threshold": 3.0,
+      "candidate_calls": 5
+    }
+  ],
+  "pattern_threshold_experiment": [
+    {
+      "threshold": 0.4,
+      "matches": 44
+    },
+    {
+      "threshold": 0.55,
+      "matches": 76
+    },
+    {
+      "threshold": 0.6,
+      "matches": 73
+    },
+    {
+      "threshold": 0.75,
+      "matches": 6
+    }
+  ],
+  "detections": 76,
+  "reference_consistency_not_accuracy": [
+    {
+      "site_name": "Lchura",
+      "true_calls": 8,
+      "detections": 76,
+      "true_positives": 8,
+      "precision": 0.11,
+      "recall": 1.0
+    }
+  ],
+  "export_rows": {
+    "occurrence": 76,
+    "event": 1,
+    "measurement": 76
+  },
+  "illustrative_emissions_kg": 3.5110156922815653e-09
+}
